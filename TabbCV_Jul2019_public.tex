@@ -1,0 +1,491 @@
+%-------------------------
+% Resume in Latex
+% Author : Sourabh Bajaj
+% License : MIT
+%------------------------
+%% Example CV in Latex
+%% Altered by Amy Tabb
+%% License: MIT
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{lastpage}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headheight}{14pt}
+\renewcommand{\footskip}{10pt}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}  %% make this not a dot.
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+
+%%%%%%%% Change the date here
+\newcommand{\nowdate}{August 3, 2019}
+
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\pagestyle{fancy}
+\fancyhead{}
+\fancyhead[L]{Amy Tabb, Ph.D.}     %%% Running head here 
+\fancyhead[R]{\nowdate}     %%% Running head here 
+\fancyfoot{}
+\fancyfoot[C]{{\thepage} of \pageref{LastPage}}
+
+
+% I changed the link color, not a huge fan of cyan.
+\hypersetup{colorlinks,breaklinks,
+            urlcolor=[rgb]{0.0,0.0,1},
+            linkcolor=[rgb]{0,0,0}}
+
+
+\begin{document}
+
+\pagestyle{fancy}
+\thispagestyle{empty}
+%% font
+\begin{center} {\Large \bf Amy Tabb }
+\end{center}
+\vspace{-14pt}
+\noindent{\rule{\linewidth}{0.4pt}}
+
+
+%----------HEADING-----------------
+%% For a private CV, you would put contact information here.
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \href{https://amytabb.com}{https://amytabb.com} & \nowdate \\
+  \href{https://amytabb.com/public/TabbCV_public.pdf}{Latest version of this CV} &   \\
+\end{tabular*}
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+%\edSubHeadingListStart
+\begin{itemize}[leftmargin=*,label=]
+    \resumeSubheading
+    {Purdue University}{West Lafayette, Indiana USA}
+      {Ph.D. Electrical and Computer Engineering}{Dec. 2014}
+     \resumeSubheading
+       {Purdue University}{West Lafayette, Indiana USA}
+	{M.S. Electrical and Computer Engineering}{Dec. 2012}
+    \resumeSubheading
+    {Duke University}{Durham, North Carolina, USA}
+      {M.A., Musicology (Performance Practice)}{May 2003}
+ \resumeSubheading
+    {Sweet Briar College}{Sweet Briar, Virginia, USA}
+      {B.A., Mathematics/Computer Science and Music}{May. 2001}
+    \begin{itemize}[label=]
+        \item{\it summa cum laude}
+	\item{University of York, England, studying Mathematics and Music, 1999-2000}
+    \end{itemize}
+\end{itemize}
+
+%%% MArquette affiliation??
+%---------------------
+\section{Professional Affiliations}
+\begin{itemize}[leftmargin=*,label=]
+    \resumeSubheading
+    {Research Agricultural Engineer (a PI role)}{Kearneysville, West Virginia USA}
+      {USDA-ARS-AFRS}{2013-present}
+    \resumeSubheading
+    {Adjunct Assistant Research Professor}{Milwaukee, Wisconsin USA}
+    {Marquette University, Department of Electrical and Computer Engineering}{2019-present}
+	
+     \resumeSubheading
+       {Student trainee in engineering}{Kearneysville, West Virginia USA}
+	{USDA-ARS-AFRS}{2004-2013}
+    \resumeSubheading
+    {Engineering Technician}{Kearneysville and Leetown, West Virginia, USA}
+      {USDA-ARS-AFRS and USDA-ARS-NCCCWA}{2003-2004}
+
+\end{itemize}
+
+%--------------- Grants ---------------------------
+\section{Competitive Grants Awarded}
+\begin{enumerate}[noitemsep, leftmargin=*,label={[\arabic*]}]
+\item{Bloom intensity estimation using your smartphone: Machine learning algorithms for species-independent visual recognition of flowers.  PIs H. Medeiros and \textbf{A. Tabb}.  State Horticultural Association of Pennsylvania Research Committee.  {\bf \$20,200}.}
+\item{Quantifying invasive insect movement within and across landscapes using laser detection technology and unmanned aerial systems. PIs \textbf{A.Tabb}, H. Medeiros, T. Leskey, K. Rice, R. Morrison III, J. Tooker. NIFA AFRI Foundational Program, Agricultural Systems and Technology. {\bf\$474,621}. 2018-2022.}
+\item{Elucidating the gene networks controlling branch angle and the directional growth of lateral meristems in trees.  PIs K. Xu, C. Dardick, \textbf{A.Tabb}. NSF Plant Genome Research Program. {\bf\$1,556,406}. 2014-2018.}
+\item{Improving the fruit quality of Pennsylvania apples with precision pruning.  PIs J. Schupp and T. Baugher. Pennsylvania Department of Agriculture.  (Collaborator receiving funds). {\bf\$40,000}. 2014.}
+\end{enumerate}
+
+\section{\sc Competitive Grant Proposals Awarded, collaborator}
+The regulation of lateral shoot orientation in plants by the novel gene WEEP. PIs C. Hollender, F. Telewski.  (Collaborator not receiving funds). NIFA AFRI Foundational Program. \$475,000.
+\vspace*{0.2in}
+
+%-----------JOURNALS-----------------
+Publications are listed with the authoritative DOIs as well as public access links, when available.
+
+\section{Journal publications}
+%\begin{enumerate}[noitemsep, leftmargin=*,label={[J\arabic*]}]
+\begin{enumerate}[noitemsep, leftmargin=*,label={[\arabic*]}]
+\item{L.J. Nixon, \textbf{A. Tabb}, W. M. Morrison, K. Rice, E. G. Brockerhoff, T.C. Leskey, S. Goldson, M. Rost\'{a}s, ``Volatile release, mobility, and mortality of diapausing Halyomorpha halys during simulated shipping movements and temperature changes," J Pest Sci (2019). \href{https://doi.org/10.1007/s10340-019-01084-x}{10.1007/s10340-019-01084-x} and \href{https://www.researchgate.net/publication/330836791_Volatile_release_mobility_and_mortality_of_diapausing_Halyomorpha_halys_during_simulated_shipping_movements_and_temperature_changes}{RG (private request)}.}
+
+\item{P. A. Dias, \textbf{A. Tabb} and H. Medeiros, ``Multispecies Fruit Flower Detection Using a Refined Semantic Segmentation Network," in IEEE Robotics and Automation Letters, vol. 3, no. 4, pp. 3003-3010, Oct. 2018. \href{https://doi.org/10.1109/LRA.2018.2849498}{10.1109/LRA.2018.2849498} and \href{https://arxiv.org/abs/1809.10080}{arXiv 1809:10080 [cs.CV]}.}
+
+\item{C. A. Hollender, P. Thierry, \textbf{A. Tabb}, T. Hadiarto, C. Srinivasan, W. Wang, Z. Liu, R. Scorza, and C. Dardick, ``Loss of a highly conserved sterile alpha motif domain gene (WEEP) results in pendulous branch growth in peach trees,” Proceedings of the National Academy of Sciences, vol. 115, no. 20, pp. E4690–E4699, 2018. \href{https://doi.org/10.1073/pnas.1704515115}{10.1073/pnas.1704515115} [Open Access].}
+
+\item{C. A. Hollender, J. M. Waite, \textbf{A. Tabb}, D. Raines, S. Chinnithambi, and C. Dardick, ``Alteration of TAC1 expression in Prunus species leads to pleiotropic shoot phenotypes,” Horticulture Research, vol. 5, no. 1, p. 26, May 2018. \href{https://doi.org/10.1038/s41438-018-0034-1}{10.1038/s41438-018-0034-1} [Open Access.]}
+
+\item{P. A. Dias, \textbf{A. Tabb}, and H. Medeiros, ``Apple flower detection using deep convolutional networks,” Computers in Industry, vol. 99, pp. 17–28, Aug. 2018. \href{https://doi.org/10.1016/j.compind.2018.03.010}{10.1016/j.compind.2018.03.010} and \href{https://arxiv.org/abs/1809.06357}{arXiv:1809.06357 [cs.CV]}.}
+
+\item{\textbf{A. Tabb} and H. Medeiros, ``Automatic segmentation of trees in dynamic outdoor environments,” Computers in Industry, vol. 98, pp. 90–99, Jun. 2018. \href{https://doi.org/10.1016/j.compind.2018.03.002}{10.1016/j.compind.2018.03.002} and \href{https://arxiv.org/pdf/1702.07611.pdf}{arXiv:1702.07611 [cs.CV]}.}
+
+\item{\textbf{A. Tabb} and K. M. Ahmad Yousef, “Solving the robot-world hand-eye(s) calibration problem with iterative methods,” Machine Vision and Applications, vol. 28, no. 5, pp. 569–590, Aug. 2017. \href{https://doi.org/10.1007/s00138-017-0841-7}{10.1007/s00138-017-0841-7} and \href{https://arxiv.org/pdf/1907.12425.pdf}{arXiv:1907.12425 [cs.RO]}. }
+
+\item{D. L. Peterson, \textbf{A. Tabb}, T.A. Baugher, K. Lewis, D.M. Glenn, “Dry Bin Filler for Apples,” Applied Engineering in Agriculture, vol. 26, no. 4, p. 541, 2010. \href{https://doi.org/10.13031/2013.32057}{10.13031/2013.32057} and \href{https://naldc.nal.usda.gov/download/46081/PDF}{USDA NAL}.}
+
+\item{B.S. Bennedsen, D.L. Peterson, and \textbf{A. Tabb}, “Identifying Apple Surface Defects Using Principal Components Analysis and Artificial Neural Networks,” Transactions of the ASABE, vol. 50, no. 6, p. 2257, 2007. Transactions of the ASABE, 50(6): 2257-2265. \href{https://doi.org/10.13031/2013.24078}{10.13031/2013.24078} and \href{https://naldc.nal.usda.gov/download/19567/PDF}{USDA NAL}.}
+
+\item{B.S. Bennedsen, D.L. Peterson, \textbf{A. Tabb}, “Identifying defects in images of rotating apples,” Computers and Electronics in Agriculture, vol. 48, no. 2, pp. 92–102, Aug. 2005. \href{https://doi.org/10.1016/j.compag.2005.01.003}{10.1016/j.compag.2005.01.003} and \href{https://naldc.nal.usda.gov/download/6652/PDF}{USDA NAL}.}
+\end{enumerate}
+
+%------------------ Book Chapters ---------------------
+\section{Book chapters}
+%\begin{enumerate}[noitemsep, leftmargin=*,label={[BC\arabic*]}]
+\begin{enumerate}[noitemsep, leftmargin=*,resume*]
+\item{Q. Zhang, M. Karkee, \textbf{A. Tabb}, ``The use of agricultural robots in orchard management.” in {\it Robotics and automation for improving agriculture}. John Billingsley, Ed. Burleigh Dodds Science Publishing, 2019, pp. 187–214. \href{https://doi.org/10.19103/AS.2019.0056.14}{10.19103/AS.2019.0056.14} and \href{https://arxiv.org/pdf/1907.13114.pdf}{arXiv:1907.13114 [cs.RO]}. }
+\end{enumerate}
+
+%------------------ CONFERENCE ---------------------
+\section{Refereed conference publications}
+%\begin{enumerate}[noitemsep, leftmargin=*,label={[C\arabic*]}]
+\begin{enumerate}[noitemsep, leftmargin=*,resume*]
+\item{B. Stumph, M. Hernandez Virto, H. Medeiros, \textbf{A. Tabb}, S. Wolford, K. Rice, T. Leskey, ``Quantification of Dispersal Patterns of Invasive Insects with Unmanned Aerial Vehicles,” in 2019 IEEE International Conference on Robotics and Automation (ICRA), 2019. [accepted, to appear May 2019.] \href{https://arxiv.org/abs/1903.00815}{arXiv:1903.00815 [cs.RO]}.}
+
+\item{P.A.  Dias, Z. Shen, \textbf{A. Tabb} and H. Medeiros, ``FreeLabel: a publicly available annotation tool based on freehand traces,” in 2019 IEEE Winter Conference on Applications of Computer Vision (WACV).\href{https://doi.org/10.1109/WACV.2019.00010}{doi: 10.1109/WACV.2019.00010} and \href{https://arxiv.org/abs/1902.06806}{arXiv:1902.06806 [cs.CV]}.}
+
+\item{\textbf{A. Tabb} and H. Medeiros, ``Fast and Robust Curve Skeletonization for Real-World Elongated Objects,” in 2018 IEEE Winter Conference on Applications of Computer Vision (WACV), 2018, pp. 1935–1943.
+\href{https://doi.org/10.1109/WACV.2018.00214}{10.1109/WACV.2018.00214} and \href{https://arxiv.org/abs/1702.07619}{arXiv:1702.07619 [cs.CV]}.}
+
+\item{\textbf{A. Tabb}, K. E. Duncan and C. N. Topp, ``Segmenting Root Systems in X-Ray Computed Tomography Images Using Level Sets,” in 2018 IEEE Winter Conference on Applications of Computer Vision (WACV), 2018, pp. 586–595. \href{https://doi.org/10.1109/WACV.2018.00070}{10.1109/WACV.2018.00070} and \href{https://arxiv.org/abs/1809.06398}{arXiv:1809.06398 [cs.CV]}.}
+
+\item{\textbf{A. Tabb} and H. Medeiros, ``A robotic vision system to measure tree traits," 2017 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Vancouver, BC, 2017, pp. 6005-6012. \href{https://doi.org/10.1109/IROS.2017.8206497}{10.1109/IROS.2017.8206497} and \href{https://arxiv.org/abs/1707.05368}{arXiv:1707.05368 [cs.RO]}.}
+
+\item{\textbf{A. Tabb} and K. Ahmad Yousef, ``Parameterizations for reducing camera reprojection error for robot-world hand-eye calibration," 2015 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Hamburg, 2015, pp. 3030-3037. \href{https://doi.org/10.1109/IROS.2015.7353795}{10.1109/IROS.2015.7353795} and \href{https://www.researchgate.net/publication/280925717_Parameterizations_for_Reducing_Camera_Reprojection_Error_for_Robot-World_Hand-Eye_Calibration}{RG}.}
+
+\item{\textbf{A. Tabb} and J. Park, ``Camera calibration correction in Shape from Inconsistent Silhouette,” in 2015 IEEE International Conference on Robotics and Automation (ICRA), 2015, pp. 4827–4834. \href{https://doi.org/10.1109/ICRA.2015.7139870}{10.1109/ICRA.2015.7139870} and \href{https://www.researchgate.net/publication/282710124_Camera_calibration_correction_in_Shape_from_Inconsistent_Silhouette}{RG}.}
+
+\item{\textbf{A. Tabb}. 2013, ``Shape from Silhouette Probability Maps: Reconstruction of Thin Objects in the Presence of Silhouette Extraction and Calibration Error,” in 2013 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2013, pp. 161–168.   \href{https://doi.org/10.1109/CVPR.2013.28}{10.1109/CVPR.2013.28} and \href{https://www.cv-foundation.org/openaccess/content_cvpr_2013/papers/Tabb_Shape_from_Silhouette_2013_CVPR_paper.pdf}{CVF}.}
+
+\item{J. Park, \textbf{A. Tabb}, and A. C. Kak. 2006, ``Hierarchical Data Structure for Real-Time Background Subtraction,” in 2006 International Conference on Image Processing (ICIP), 2006, pp. 1849–1852. \url{https://doi.org/10.1109/ICIP.2006.312840} and \href{https://amytabb.com/pubs/Park_06_hierarchical_data_structure_for_real-time_background_subtraction.pdf}{AT}.}
+
+\end{enumerate}
+
+%------------------ PREPRINT ---------------------
+\section{Preprints}
+%\begin{enumerate}[noitemsep, leftmargin=*,label={[C\arabic*]}]
+\begin{enumerate}[noitemsep, leftmargin=*,resume*]
+\item{\textbf{A. Tabb}, G.A. Holgu\'{i}n, and R Naegele, “Using cameras for precise measurement of two-dimensional plant features,” May 2019. \href{https://arxiv.org/abs/1904.13187}{arXiv:1904.13187 [cs.CV]}.}
+
+\item{\textbf{A. Tabb} and H. Medeiros, “Calibration of Asynchronous Camera Networks for Object Reconstruction Tasks,” Mar. 2019. \href{https://arxiv.org/abs/1903.06811}{arXiv:1903.06811 [cs.CV]}.}
+\end{enumerate}
+
+%------------------ EXTENDED ABSTRACTS ---------------------
+\section{Extended abstracts}
+\begin{enumerate}[noitemsep, leftmargin=*,label={}]
+\item{M. Feldmann, \textbf{A. Tabb}, and S. Knapp, "Cost-effective, high-throughput 3D reconstruction method for fruit phenotyping", in CVPPP 2019: workshop on Computer Vision Problems in Plant Phenotyping, 2019. (peer-reviewed) \href{https://www.plant-phenotyping.org/lw_resource/datapool/systemfiles/elements/files/a1abf372-7552-11e9-b1c5-dead53a91d31/current/document/FeldmannCVPPP2019.pdf}{IPPN} and \href{https://amytabb.com/pubs/CVPPP2019-poster.pdf}{poster, AT}}
+\end{enumerate}
+
+%------------------- non refeered -------------------
+\section{Non-refereed conference publications}
+%\begin{enumerate}[noitemsep, leftmargin=*,label={[NC\arabic*]}]
+\begin{enumerate}[noitemsep, leftmargin=*,label={}]
+\item{\textbf{A. Tabb}, D. Peterson, and J. Park, ``Segmentation of Apple Fruit from Video via Background Modeling. ASABE Annual International Meeting," 2006.  \href{https://elibrary.asabe.org/abstract.asp?aid=20873}{10.13031/2013.20873} and \href{https://amytabb.com/pubs/Tabb_06_segmentation_of_apple_fruit_from_video_via_background_modeling.pdf}{AT}.}
+\end{enumerate}
+
+\section{Other publications}
+\begin{enumerate}[noitemsep, leftmargin=*,label={}]
+\item{\textbf{A. Tabb},  ``Shape from Inconsistent Silhouette: Reconstruction of Objects in the Presence of Segmentation and Camera Calibration Error'', Open Access Dissertations. 372, 2019.  \href{https://docs.lib.purdue.edu/open_access_dissertations/372/}{Open Access Link}}
+\end{enumerate}
+
+%-------------- software -------------
+\section{Software releases}
+\begin{enumerate}[noitemsep, leftmargin=*,label={[S\arabic*]}]
+\item{\textbf{A. Tabb}, K. E. Duncan, C. N. Topp, “Code and Data from: Segmenting Root Systems in X-Ray Computed Tomography Images Using Level Sets,” [Data set]. Zenodo. 2019. \href{http://doi.org/10.5281/zenodo.3333709}{10.5281/zenodo.3333709},  \href{http://doi.org/10.5281/zenodo.3344906}{10.5281/zenodo.3344906}}
+
+\item{\textbf{A. Tabb}, “Code from: Using cameras for precise measurement of two-dimensional plant features,” Ag Data Commons, 2019. \href{https://data.nal.usda.gov/dataset/code-using-cameras-precise-measurement-two-dimensional-plant-features}{https://data.nal.usda.gov/dataset/code-using-cameras-precise-measurement-two-dimensional-plant-features}} 
+
+\item{\textbf{A. Tabb}, ``Code from: Fast and robust curve skeletonization for real-world elongated objects," Ag Data Commons, 2017.  \href{http://dx.doi.org/10.15482/USDA.ADC/1399689}{10.15482/USDA.ADC/1399689}}
+
+\item{\textbf{A. Tabb},  ``Data from: Solving the Robot-World Hand-Eye(s) Calibration Problem with Iterative Methods," Ag Data Commons, 2017. \href{http://dx.doi.org/10.15482/USDA.ADC/1340592}{10.15482/USDA.ADC/1340592}}
+\end{enumerate}
+
+%---------------- data ----------------
+\section{Data releases}
+\begin{enumerate}[noitemsep, leftmargin=*,label={[D\arabic*]}]
+\item{P. A. Dias, \textbf{A. Tabb}, H. Medeiros,  ``Multi-species fruit flower detection using a refined semantic segmentation network," Ag Data Commons, 2018. \href{http://dx.doi.org/10.15482/USDA.ADC/1423466}{10.15482/USDA.ADC/1423466}}
+\end{enumerate}
+
+%------------------- talks --------------
+\section{Invited Talks}
+\begin{enumerate}[leftmargin=*,label={[\arabic*]}]
+\item{Autonomously generating shape estimates of plant parts across scales. Phenome 2019.  February 7, 2019.}
+
+\item{Transforming Pixels to Millimeters: Geometric Camera Calibration.  Plantae webinar series, American Society of Plant Biologists.  November 29, 2018. \href{https://amytabb.com/tips/#geometric-camera-calibration-webinar}{[Recording, resources]}}
+
+\item{Autonomous shape phenotyping of trees: strategies using computer vision and robotics. Michigan State University Horticulture Department. September 13, 2018.}
+
+\item{Estimating plant shape in field settings. University of Minnesota Computer Science and Engineering colloquium. September 10, 2018.}
+
+\item{Autonomous phenotyping: tree shape, flower detection, and root segmentation. Donald Danforth Plant Science Center seminar series.  St. Louis, Missouri.  May 16, 2018.}
+
+\item{ Phenotyping tree shape in the field using computer vision and robotics.  Phenome 2018 {\it Robotics} section. Tucson, Arizona.  February 15, 2018. }
+
+\item{ Computer vision and robotics in tree fruit production: an infinite supply of interesting yet complex and difficult problems. Chester F. Carlson Center for Imaging Science seminar series, Rochester Institute of Technology.  Rochester, New York.  November 16, 2016.}
+
+\item{ A robotic system for three-dimensional tree architecture phenotyping.  Cornell Fruit Field Day, Geneva, New York.  July 20, 2016.}
+
+\item{ Autonomously Determining the Shape of Trees for Structural Phenotyping and Pruning. IEEE Robotics and Automation Society technical committee on Agricultural Robotics and Automation webinar series, February 11, 2016.} 
+
+\item{ Engineering Computer Vision Tools for Entomology Research.  Brown Marmorated Stink Bug Integrated Pest management working group meeting. December 2, 2015.}
+
+\item{ Computer vision in tree fruit production.  Marquette University Electrical and Computer Engineering lecture series.  October 13, 2015.}
+
+\item{ Parameterizations for Reducing Camera Reprojection Error for Robot-World Hand-Eye Calibration. National Institute of Standards and Technology, Metrology section. August 11, 2015.}
+
+\item{ Steps forward in autonomous pruning.  Penn State Fruit Research and Experiment Center, Field day. July 9, 2015.}
+
+\item{ Three-dimensional modeling of dormant trees for robotic pruning. Specialty Crops Engineering Solutions workshop, Robotics Institute, Carnegie Mellon University, Nov. 28, 2012.}
+\end{enumerate}
+
+\section{Agency/Location presentations}
+\begin{enumerate}[noitemsep, leftmargin=*,label={[\arabic*]}]
+\item{Computer vision and robotics in fruit systems: automation strategies.  USDA-ARS Grape Research Workshop.  Portland, Oregon.  November 29, 2017. }
+
+\item{ Computer vision and robotics in tree fruit production.  Virginia Tech Orchard Twilight Meeting. August 29, 2017.}
+
+\item{ Computer vision and robotics in tree fruit production.  Appalachian Fruit Research Station seminar series. July 26, 2017.}
+
+\item{ Robotic Imaging System for Orchard Automation. Young Growers Alliance Tour. June 7, 2016.}
+\end{enumerate}
+
+%------------------ misc. conference presentations ------------------
+\section{Conference presentations not represented elsewhere}
+\begin{enumerate}[noitemsep, leftmargin=*,label={[\arabic*]}]
+\item{K. Rice, \textbf{A.Tabb}, H. Medeiros, M. Hern{\'a}ndez Virto, T.C. Leskey. 2017. Tracking insects in the field using lasers and drones. Cumberland-Shenandoah Fruit Worker's Conference. } 
+
+\item{ K. Rice, \textbf{A.Tabb}, H. Medeiros, M. Hern{\'a}ndez Virto, R. Morrison, J. Tooker,  T.C. Leskey. 2017. Tracking insects in the field using lasers and drones. Mark-release-recapture revisited: Historical, state-of-the-art, and future developments for tracking insect movement in the field, a symposium at the meeting of Eastern branch of the Entomological Society of America.}
+
+\item{ \textbf{A. Tabb}. 2016. An autonomous measurement system for dormant trees. Cumberland-Shenandoah Fruit Worker's Conference.}
+
+\item{ \textbf{A. Tabb}. 2015. Reconstruction of dormant trees' shape for automated pruning and phenotyping. ASABE Annual International Meeting.}
+
+\item{ \textbf{A. Tabb}. 2014. Reconstruction of dormant trees' shape for automated pruning and phenotyping. Cumberland-Shenandoah Fruit Worker's Conference.}
+\end{enumerate}
+
+%------------------- posters ----------------------
+
+\section{Posters}
+\begin{enumerate}[noitemsep, leftmargin=*,label={[\arabic*]}]
+\item{\textbf{A. Tabb}. Phenotyping tree shape in the field using computer vision and robotics. 2018. Data Crunching and New Analytics Section, Phenome 2018.}
+
+\item{\textbf{A. Tabb}, K. Xu, C. Dardick.  2017. A phenotyping system for measuring shape features of trees. NSF Plant Genome Research Program, 20th annual awardee meeting. }
+
+\item{L. Nixon, \textbf{A.Tabb}, W.R. Morrison III, K.B. Rice, T.C. Leskey, E.G. Brockerhoff, S. Goldson, M. Rost\'{a}s.  2017. Brown Marmorated Stink Bug: a simulated voyage. New Zealand - United States Invasive Species Workshop, Auckland, New Zealand. }
+\end{enumerate}
+
+\section{Features in trade press}
+\begin{enumerate}[noitemsep, leftmargin=*,label={[\arabic*]}]
+\item{ Orchard Management Technology. Sharon Durham. December 2017. AgResearch.}
+
+\item{ Pruning Goes High-Tech.  Christina Herrick. June 2, 2017.  American Fruit Grower. } 
+
+\item{ Kearneysville station research focuses on breeding yield, density into fruit trees.  David Weinstock and Curt Harler.  June 2017.  Fruit Growers News.}
+\end{enumerate}
+
+\section{ Radio Interviews}
+\begin{enumerate}[noitemsep, leftmargin=*,label={}]
+\item{ Automating harvest equipment. Guest of the Peggy Smedley show, an IoT internet radio show.  May 29, 2018.}
+\end{enumerate}
+
+
+\section{Professional awards}
+{2017: Nominee for the Eastern Panhandle Federal Employee Association Manager category award.}  
+
+%------------------------
+\section{Teaching Experience}
+
+
+\subsection{Students mentored (as a committee member)}
+
+\subsubsection{Ph.D.}
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}cc}
+Philipe Ambrozio Dias & ECE, Marquette University & 2020 (expected)\\
+Mitchell Feldmann & Plant Sciences, University of California-Davis & 2020 (expected)\\
+\end{tabular*}
+
+
+\subsubsection{M.S.}
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}cc}
+Brian Stumph & ECE, Marquette University & 2019
+\end{tabular*}
+
+
+\subsection{Undergraduates}
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}cc}
+Leighton Miller &ECE, West Virginia University & summer 2016
+\end{tabular*}
+
+\section{Related Professional Skills}
+\begin{enumerate}[noitemsep, leftmargin=*,label={}]
+\item{Linux}
+\item{C/C++}
+\item{Matlab/Octave}
+\item{OpenCV}
+\item{OpenMP}
+\item{Wincaps (for Denso robots)}
+\item{Docker}
+\item{Latex}
+\end{enumerate}
+
+
+%---------- service--------------------
+\section{Service}
+
+\subsection{Positions}
+\begin{enumerate}[noitemsep, leftmargin=*,label={[\arabic*]}]
+\item{Co-chair, \href{http://ieeeagra.com/}{IEEE RAS Technical Committee on Agricultural Robotics and Automation}.  September 2018-present. Organize and host international webinar series; edit webpage; communications, Twitter account \href{https://twitter.com/AgRoboticsTC}{@AgRoboticsTC}.}
+\item{Executive Board member, \href{http://nappn.plant-phenotyping.org/}{North American Plant Phenotyping Network (NAPPN)}, 2020-2022.  Serve as part of future board from March 2019.}
+\end{enumerate}
+
+
+\subsection{Editing}
+\begin{enumerate}[noitemsep, leftmargin=*,label={}]
+\item{Associate Editor, IEEE International Conference on Robotics and Automation (ICRA) 2019}
+\end{enumerate}
+
+\subsection{Program committees}
+\begin{enumerate}[noitemsep, leftmargin=*,label={[\arabic*]}]
+\item{member, Phenome 2019}
+\item{member, IEEE International Conference on Semantic Computing 2019}
+\item{member, IEEE International Conference on Semantic Computing 2020}
+\item{member, Mechatronics and Machine Vision in Practice 2019.}
+\end{enumerate}
+
+\subsection{Scientific committees}
+\begin{enumerate}[noitemsep, leftmargin=*,label={}]
+\item{member, 12th European Conference on Precision Agriculture [2019]}
+\end{enumerate}
+
+\subsection{Technical Committees}
+\begin{enumerate}[noitemsep, leftmargin=*,label={}]
+\item{member, \href{https://robots-wild-rss.github.io/rss2019-workshop/}{Robots in the Wild: Challenges in Deploying Robust Autonomy for Robotic Exploration}, a workshop of the Robotics: Science and Systems 2019 conference.}
+\end{enumerate}
+
+
+\subsection{Peer review: Conferences}
+\begin{enumerate}[noitemsep, leftmargin=*,label={[\arabic*]}]
+\item{IEEE International Conference on Robotics and Automation (ICRA) 2016: 2015}
+\item{IEEE International Conference on Robotics and Automation (ICRA) 2018: 2017}
+\item{IEEE/RSJ International Conference on Intelligent Robots (IROS) 2018: 2018}
+\item{IEEE/RSJ International Conference on Intelligent Robots (IROS) 2019: 2019}
+\end{enumerate}
+
+\subsection{Peer review: Journals}
+\begin{enumerate}[noitemsep, leftmargin=*,label={[\arabic*]}]
+\item{Autonomous Robots, 2019}
+\item{Biosystems Engineering: 2016}
+\item{Computers and Electronics in Agriculture: 2011, 2012, 2013, 2014}
+\item{Horticulture Research: 2018}
+\item{HortTechnology: 2013}
+\item{Intelligent Service Robotics: 2018}
+\item{IEEE Robotics and Automation Letters: 2018}
+\item{IEEE Sensors: 2017, 2018}
+\item{Journal of Field Robotics: 2016, 2018, 2019}
+\item{Journal of Food Measurement: 2013}
+\item{Measurement: 2017}
+\item{Plant Methods: 2019}
+\item{Precision Agriculture: 2017, 2018}
+\item{Sensors (MPDI): 2018}
+\item{Transactions of ASABE: 2011, 2012, 2013, 2014, 2016, 2018}
+\end{enumerate}
+
+\subsection{Peer review: Grant panels}
+\begin{enumerate}[noitemsep, leftmargin=*,label={[\arabic*]}]
+\item{Binational Agricultural Research and Development Fund (BARD): 2014}
+\item{USDA-NIFA AFRI Foundational program, panel member: 2015}
+\item{USDA SBIR, ad hoc technical reviewer: 2016}
+\item{Citrus Research Board, ad hoc scientific reviewer: 2018}
+\end{enumerate}
+
+\subsection{Technical review: other}
+\begin{enumerate}[noitemsep, leftmargin=*,label={}]
+\item{External reviewer, Ph.D. proposal, Wageningen University: 2019}
+\end{enumerate}
+
+\subsection{Agency/Location Service}
+\begin{enumerate}[noitemsep, leftmargin=*,label={[\arabic*]}]
+\item{USDA-ARS-AFRS Management labor relations negotiating team, September 2015-May 2016}
+\item{USDA-ARS North Atlantic Area Inform and Engage ad-hoc committee June-August 2014}
+\item{USDA-ARS Northeast Area Inform and Engage committee, July 2015-present}
+\item{Landscape committee chairperson, June 2015-present}
+\item{People's Garden management representative, January 2016-present}
+\end{enumerate}
+
+\subsection{Community Involvement}
+\begin{enumerate}[noitemsep, leftmargin=*,label={[\arabic*]}]
+\item{Jefferson County 4-H Robotics Club mentor, September 2014-March 2016}
+\item{Sweet Briar Women in STEM leader for Computer Science, July 2015-March 2016}
+\item{Speaker for Leadership Jefferson, a program offered through the Chamber of Commerce, Agriculture module, October 2016, 2017, 2018.  Presented research work to a general audience.}
+\item{Give presentations of work from the engineering group to the public at USDA-ARS-AFRS, including, but not limited to: pre-K students, Boy Scouts, special ed. students, vocational agriculture/FFA students, homeschool students, community college students, local college students, agricultural industry representatives, visitors from New Zealand, and universities.}
+\item{Panelist: sustainable agriculture at Sweet Briar College, April 23, 2019.}
+\item{Panelist: Farms 2 Schools, WVU extension service, June 19, 2019.}
+\end{enumerate}
+
+
+\subsection{Service, other}
+\begin{enumerate}[noitemsep, leftmargin=*,label={}]
+\item{co-chair Visual Perception II session IEEE ICRA 2015}
+\end{enumerate}
+
+\section{Professional Memberships}
+\begin{enumerate}[noitemsep, leftmargin=*,label={[\arabic*]}]
+\item{Member of USDA NIFA W1009: Integrated Systems Research and Development in Automation and Sensors for Sustainability of Specialty Crops multi-state regional project, 2008-2013. }
+\item{Member of USDA NIFA W2009: Integrated Systems Research and Development in Automation and Sensors for Sustainability of Specialty Crops multi-state regional project, 2013-2018. }
+\item{Member of USDA NIFA W3009: Integrated Systems Research and Development in Automation and Sensors for Sustainability of Specialty Crops multi-state regional project, 2018-2023. }
+\item{American Society of Agricultural and Biological Engineers (ASABE), 2006 - 2018.}
+\item{Institute of Electrical and Electronics Engineers (IEEE), 2011.}
+\item{IEEE Computer Society, 2011.}
+\item{IEEE Robotics and Automation Society, 2011.}
+\item{IEEE RAS Technical Committee on Agricultural Robotics and Automation, 2015.}
+\item{North American Plant Phenotyping Network, 2018.}
+\item{Computer Vision Foundation, 2018}
+\end{enumerate}
+
+%-------------------------------------------
+\end{document}
