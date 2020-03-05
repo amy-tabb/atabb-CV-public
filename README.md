@@ -9,3 +9,5 @@ There's more commentary about this on my website:
 - [general post](https://amytabb.com/ts/2018_11_01/)
 - [getting started, for graduate students](https://amytabb.com/ts/2019_02_02/)
 - [personal information on CVs and EEO in the USA](https://amytabb.com/ts/2019_02_20/)
+
+You may also want to check out Igal Tabachnik's [CV repository](https://github.com/hmemcpy/cv) for non-academic positions.
