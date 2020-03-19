@@ -19,13 +19,13 @@ You may also want to check out Igal Tabachnik's [CV repository](https://github.c
 
 I added another template, but this one for a hypothetical person -- you're an early career professional, interested in research-type jobs and/or graduate school.  I was helping a friend with his CV, and when looking for templates, I realized there weren't really good options out there.  So I hacked together Igal Tabachnik's CV and added some items from mine.  The result is `EarlyProfCVTemplate.tex`.
 
-For any of these templates, if you are a latex newbie, you can go to [overleaf](overleaf.com) and use a cloud-bases service to edit and compile the document.  Create an account, create a blank document, and copy all of the text from a .tex file in, and try to compile.  You should see the result on the right side of the screen.
+For any of these templates, if you are a latex newbie, you can go to [overleaf](overleaf.com) and use a cloud-based service to edit and compile the document.  Create an account, create a blank document, and copy all of the text from a .tex file in, and try to compile.  You should see the result on the right side of the screen.
 
 For local compilation (what I do), on Ubuntu:
 
 `sudo apt-get install texlive-full texlive-science texlive-fonts-extra texstudio`
 
-The last item is optional -- I like texstudio, others like texmaker.  Experiment.  Ok!  Walk away, because this will take an age.
+The last item is optional -- I like texstudio, others like texmaker.  Experiment.  Ok!  Walk away, because this will take an age. (Technically, you may not need all of these packages, but this for sure will get you through scientific paper writing AND compiling this CV.)
 
 Then, open the `.tex` file of interest with texstudio, press F5 to compile.  On the right side, you'll see the preview of the document, and in the directory where you have the `.tex` file, there will be a `.pdf` of your document.  
 
