@@ -1,0 +1,166 @@
+%%%  Altered from Igal Tabachnik's CV https://github.com/hmemcpy/cv
+%%% by Amy Tabb.  This and related CV templates at https://github.com/amy-tabb/atabb-CV-public
+%%% MIT license.
+%%% To start -- fill in the \newcommand{\myname}{Your Name} to Your Name
+%%% mine would be: \newcommand{\myname}{Amy Tabb} 
+
+\documentclass[a4paper,11pt]{article}
+
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{libertine}
+\usepackage{fontawesome}
+\usepackage{longtable}
+\usepackage[cm]{fullpage}
+\usepackage{enumitem}
+
+\newcommand{\myname}{Your Name}
+
+
+% headers and footers
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\pagestyle{fancy}
+\fancyfoot[L]{\myname}
+\fancyfoot[C]{Page \thepage\ of \pageref*{LastPage}}
+\fancyfoot[R]{\today}
+\renewcommand{\footrulewidth}{0.4pt}% default is 0pt
+\fancyhead{}
+\renewcommand{\headrulewidth}{0pt}
+
+% StackOverflow-like tags
+% https://tex.stackexchange.com/a/311949/142692
+% https://tex.stackexchange.com/questions/387499/how-to-create-a-border-that-looks-like-a-tag
+\usepackage{tikz}
+\definecolor{tagbg}{RGB}{225,236,244}
+\definecolor{tagtxt}{RGB}{88,115,159}
+\newcommand{\sotag}[1]{\tikz[baseline]{\node[anchor=base, rounded corners=0.5ex, text height=1.5ex, text depth=.25ex, fill=tagbg, draw=tagbg, text=tagtxt] {#1};}}
+
+% Helpers for adding job entries
+\newcommand{\job}[2]{\large\sffamily \textbf{#1} at \textbf{#2}}
+\newcommand{\sep}{\multicolumn{2}{c}{}\\}
+
+% tweak the url colors
+\usepackage{hyperref}
+\definecolor{linkcolor}{rgb}{0,0.2,0.6}
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolor, linkcolor=linkcolor}
+
+% nicer-looking section titles
+\usepackage{titlesec}
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{1em}{3pt}
+
+\newcommand{\resumeSubheading}[4]{
+	\vspace{-1pt}\item
+	\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+		\textbf{#1} & #2 \\
+		\textit{\small#3} & \textit{\small #4} \\
+	\end{tabular*}\vspace{-5pt}
+}
+
+\begin{document}
+
+% --------------------TITLE-------------
+\par{\centering
+		{\Huge \textsc{\myname}
+	}\bigskip\par}
+
+\hrule
+\vspace{0.5em}
+\begin{tabular}{rl}
+  \textsc{Phone:}     & 123456789\\
+  \textsc{Email:}     & \href{mailto:myname@domain}{myname@domain}\\
+  \textsc{Other:}   & \faHome{} \href{https://myname.com}{website} 
+                      | \faLinkedin{} \href{https://www.linkedin.com/in/linkedin-profile}{linkedin}
+                      | \faGithub{} \href{https://github.com/github-name}{github}
+\end{tabular}
+
+\section{Summary}
+\begin{tabular}{p{0.9\textwidth}}
+ Short summary paragraph 1\\\\
+  
+ Optional: short summary paragraph 2\\
+ %Interests: \sotag{computer-vision} This is optional, but sort of neat.
+\end{tabular}
+
+\section{Education}
+%\edSubHeadingListStart
+\begin{itemize}[leftmargin=*,label=]
+	\resumeSubheading
+	{Most Recent University}{City, Country}
+	{B.S. Degree Program}{Date completed}
+	\begin{itemize}[label=]
+		\item{Thesis Title:  ``title-of-the-thesis'' }
+		\item{\it Optional: describe this briefly if not obvious to who you will be sending this to. }
+	\end{itemize}
+	
+	\resumeSubheading
+	{Not Most Recent University}{City, Country}
+	{Whatever Degree Program you did}{Date completed}
+\end{itemize}
+
+\section{Work Experience}
+\begin{longtable}{r|p{0.72\textwidth}}
+  \textsc{when - when} & \job{Most Recent Job Title}{Employer Name}, Location (General) \\
+    &\\
+    &Duties and responsibilites.  What did you do?  If this is not obvious to the general person, you will have to generally describe. Test it on someone not in your industry.  \\
+    &{\bf Detail:} describe a special project for which you had responsibilty, did research, whatever. (Optional).\\\sep
+  
+  \hline
+  \sep
+  
+  \textsc{when - when} & \job{Next Most Recent Job Title}{Employer Name}, Location \\
+    &\\
+    &Same as above.  Add sections as appropriate.\\\sep
+   \hline
+  \sep
+\end{longtable}
+
+\section{Publications}
+\begin{enumerate}[noitemsep, leftmargin=*,label={[\arabic*]}]
+\item{P. A. Dias, \textbf{A. Tabb} and H. Medeiros, ``Multispecies Fruit Flower Detection Using a Refined Semantic Segmentation Network," in IEEE Robotics and Automation Letters, vol. 3, no. 4, pp. 3003-3010, Oct. 2018.\\ \href{https://doi.org/10.1109/LRA.2018.2849498}{10.1109/LRA.2018.2849498} and \href{https://arxiv.org/abs/1809.10080}{arXiv 1809:10080 [cs.CV]}. {\it This complete example let here for illustration purposes only -- please replace with your content or delete this section!}}
+\item{Add more publications, in reverse chronological order.}
+\end{enumerate}
+
+
+\section{Posters}
+\begin{enumerate}[noitemsep, leftmargin=*,label={[P\arabic*]}]
+%\begin{enumerate}[noitemsep, leftmargin=*,label={}] %this version has no numbers.  An option. 
+\item{\textbf{Your Name}, S. Name, T. Name. Poster Title. 2020. Conference Name.}
+\end{enumerate}
+
+\section{Programming Proficiency}
+\begin{tabular}{rl}
+  \textsc{Languages:}& Python, Language 2, Lanuage 3, etc.\\
+  \textsc{Modeling and Analysis:}& \\
+  \textsc{Libraries:}& OpenCV, PyTorch \\
+\end{tabular}
+
+\section{Skills}
+\begin{tabular}{rl}
+  \textsc{Languages:}& (spoken/written languages at professional or developing professional proficiency go here. )\\
+\end{tabular}
+
+\section{Accomplishments}
+\begin{enumerate}[noitemsep, leftmargin=*,label={}]
+	\item{Scholarship XXX in YYY }
+	\item{Finalist in University competition in ZZZ}
+	\item{etc.  These should be relevant to the position.}
+\end{enumerate}
+
+\section{Teaching and Volunteer Service}
+\begin{tabular}{llr}
+	 \textsc{organization}& title & when-when\\
+	 \textsc{organization}& title & when-when\\
+	 \textsc{you may want}& separate `teaching'/`volunteer'& sections\\
+\end{tabular}
+
+\section{Other Training}
+\begin{tabular}{rl}
+  \textsc{Courses:}
+  &MOOC 1 | Organization (Coursera, for instance)\\
+  \textsc{Training:}
+  &Other training 1 | Organization\\
+  &Other training 2 | Organization
+\end{tabular}
+
+\end{document}
