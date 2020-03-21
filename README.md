@@ -17,7 +17,7 @@ You may also want to check out Igal Tabachnik's [CV repository](https://github.c
 
 *March 18, 2020*
 
-I added another template, but this one for a hypothetical person -- you're an early career professional, interested in research-type jobs and/or graduate school.  I was helping a friend with his CV, and when looking for templates, I realized there weren't really good options out there.  So I hacked together Igal Tabachnik's CV and added some items from mine.  The result is `EarlyProfCVTemplate.tex`.
+I added another template, but this one for a hypothetical person -- you're an early career professional, interested in research-type jobs and/or graduate school.  I was helping a friend with his CV, and when looking for templates, I realized there weren't really good options out there.  So I hacked together Igal Tabachnik's CV and added some items from mine.  The result is `EarlyProfCVTemplate.tex`.  As with any CV template, if a section doesn't apply to you -- delete it.  Also, you can create your own headings.  Look at other CVs of those in your field to get a sense of what might make sense to put on your own CV.
 
 For any of these templates, if you are a latex newbie, you can go to [overleaf](overleaf.com) and use a cloud-based service to edit and compile the document.  Create an account, create a blank document, and copy all of the text from a .tex file in, and try to compile.  You should see the result on the right side of the screen.
 
